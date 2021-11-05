@@ -23,3 +23,11 @@ docker-compose --file ./grid/Selenium-Grid-Recording.Yaml up
 ```bash
 python3 -m src
 ```
+
+## Teardown ##
+
+### Selenium Grid ###
+
+```bash
+docker-compose --file ./grid/Selenium-Grid-Recording.Yaml down
+```
