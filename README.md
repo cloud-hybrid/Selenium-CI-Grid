@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Usage ##
 
 1. Start the [development server](https://github.com/cloud-hybrid/ui-template)
@@ -15,3 +16,38 @@ be publicly resolvable.
 ## Commands ##
 
 - `npm run compile` - compile the ES6 Babel into the `/lib` directory
+=======
+# Selenium + CI-CD Pipeline POC #
+
+## Usage ##
+
+### Setup ###
+
+```bash
+python3 -m venv .venv
+
+source .venv/bin/activate
+
+python3 -m pip install --requirement requirements.txt
+```
+
+### Selenium Grid ###
+
+```bash
+docker-compose --file ./local/Selenium-Grid-Recording.Yaml up
+```
+
+### Local Runtime ###
+
+```bash
+python3 -m src
+```
+
+## Teardown ##
+
+### Selenium Grid ###
+
+```bash
+docker-compose --file ./local/Selenium-Grid-Recording.Yaml down
+```
+>>>>>>> 5b72e5a1446e959e9c1ccd599f01939ca953726e
