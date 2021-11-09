@@ -15,7 +15,7 @@ python3 -m pip install --requirement requirements.txt
 ### Selenium Grid ###
 
 ```bash
-docker-compose --file ./grid/Selenium-Grid-Recording.Yaml up
+docker-compose --file ./local/Selenium-Grid-Recording.Yaml up
 ```
 
 ### Local Runtime ###
@@ -29,5 +29,5 @@ python3 -m src
 ### Selenium Grid ###
 
 ```bash
-docker-compose --file ./grid/Selenium-Grid-Recording.Yaml down
+docker-compose --file ./local/Selenium-Grid-Recording.Yaml down
 ```
